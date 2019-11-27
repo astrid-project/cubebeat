@@ -61,6 +61,8 @@ cubebeat:
       period: 10s
 ```
 
+The different options will be explained in the following sections.
+
 #### Load external configuration files
 
 ```Cubebeat``` can load external configuration files for inputs and modules, allowing you to separate your configuration into multiple smaller configuration files.
@@ -116,7 +118,7 @@ This feature is especially useful in container environments where one container 
 To enable dynamic config reloading, you specify the ```path``` and ```reload``` options under ```cubebeat.config.inputs``` section. For example:
 
 ```yaml
-cubebeat:
+cu
   config.inputs:
     path: config/*.yml
     reload:
