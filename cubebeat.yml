@@ -4,7 +4,7 @@
 
 cubebeat:
   config.inputs:
-    path: config/*.yml
+    path: config.d/*.yml
     reload:
       enabled: true
       period: 10s
