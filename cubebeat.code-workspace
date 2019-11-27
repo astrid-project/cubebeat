@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.wordWrap": "on",
+		"editor.wrappingIndent": "deepIndent",
+		"workbench.colorTheme": "Monokai",
+		"git.ignoreLimitWarning": true,
+		"local-history.enabled": 0
+	}
+}

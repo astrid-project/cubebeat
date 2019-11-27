@@ -1,1 +1,7 @@
 /.history
+/.idea
+/build
+.DS_Store
+/cube-beat
+/cube-beat.test
+*.pyc
