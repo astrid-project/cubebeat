@@ -1,4 +1,4 @@
-# CubeBeat
+# Cubebeat
 
 Custom Beat of the Elastic Stack to interact with the Polycube-based eBPF cubes.
 
@@ -32,13 +32,13 @@ mage build
 
 ### Run
 
-To run ```CubeBeat``` with debugging output enabled, run:
+To run ```Cubebeat``` with debugging output enabled, run:
 
 ```console
 ./cubebeat -c cubebeat.yml -e -d "*"
 ```
 
-To run ```CubeBeat``` without debugging output enabled, run:
+To run ```Cubebeat``` without debugging output enabled, run:
 
 ```console
 ./cubebeat -c cubebeat.yml -e
