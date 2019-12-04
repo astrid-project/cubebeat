@@ -65,7 +65,7 @@ The different options will be explained in the following sections.
 
 #### Load external configuration files
 
-```Cubebeat``` can load external configuration files for inputs and modules, allowing you to separate your configuration into multiple smaller configuration files.
+```Cubebeat``` can load external configuration files for inputs, allowing you to separate your configuration into multiple smaller configuration files.
 
 > On systems with ```POSIX``` file permissions, all configuration files are subject to ownership and file permission checks.<br/> For more information, see [Config File Ownership and Permissions](https://www.elastic.co/guide/en/beats/libbeat/7.4/config-file-permissions.html) in the _Beats Platform Reference_.
 
