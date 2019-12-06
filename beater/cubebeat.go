@@ -15,10 +15,10 @@ import (
 )
 
 type Cubebeat struct {
-	done        chan struct{}
-	config      *config.Config
-	cubeInputs  map[string]*config.CubeInput
-	client      beat.Client
+	done       chan struct{}
+	config     *config.Config
+	cubeInputs map[string]*config.CubeInput
+	client     beat.Client
 }
 
 func New(b *beat.Beat, cfg *common.Config) (bt beat.Beater, err error) {
@@ -32,9 +32,9 @@ func New(b *beat.Beat, cfg *common.Config) (bt beat.Beater, err error) {
 	}
 
 	bt = &Cubebeat{
-		done:        make(chan struct{}),
-		config:      &c,
-		cubeInputs:   make(map[string]*config.CubeInput),
+		done:       make(chan struct{}),
+		config:     &c,
+		cubeInputs: make(map[string]*config.CubeInput),
 	}
 
 	return bt, nil
@@ -139,7 +139,7 @@ func ProcessCube(bt *Cubebeat, cubeInput *config.CubeInput) error {
 					} else {
 						event := beat.Event{
 							Timestamp: time.Now(),
-							Fields: data,
+							Fields:    data,
 						}
 						bt.client.Publish(event)
 						logp.Info("[Cube %s] event sent: %v", cubeInput.Name, event)

@@ -1,11 +1,17 @@
 {
     "cSpell.words": [
+        "GOPATH",
         "Kibana",
+        "POSIX",
         "UUID",
         "changeme",
+        "chmod",
         "cubebeat",
+        "gitlab",
         "logp",
         "logstash",
+        "mkdir",
+        "packetcapture",
         "polycube",
         "synflood",
         "xpack"

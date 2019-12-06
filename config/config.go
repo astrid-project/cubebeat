@@ -3,8 +3,8 @@ package config
 import (
 	"fmt"
 	"net/http"
-	"time"
 	"path/filepath"
+	"time"
 
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
@@ -36,8 +36,7 @@ type CubeInput struct {
 }
 
 var (
-	DefaultConfig = Config{
-	}
+	DefaultConfig = Config{}
 )
 
 func LoadCubeInputs(path string) (cubeInputs map[string]*CubeInput, err error) {

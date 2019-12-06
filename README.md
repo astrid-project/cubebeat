@@ -41,7 +41,8 @@ git clone https://gitlab.com/astrid-repositories/wp2/cubebeat.git
 To build the binary for ```Cubebeat``` run the command below. This will generate a binary in the same directory with the name cubebeat.
 
 ```console
-mage build
+chmod +x build.sh
+build.sh
 ```
 
 ### Run
