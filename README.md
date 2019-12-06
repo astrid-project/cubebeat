@@ -4,6 +4,20 @@ Custom Beat of the Elastic Stack to interact with the Polycube-based eBPF cubes.
 
 ---
 
+## Table of Contents
+
+- [Cubebeat](#cubebeat)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Requirements](#requirements)
+    - [Download the code](#download-the-code)
+    - [Build](#build)
+    - [Run](#run)
+    - [Configuration](#configuration)
+      - [Live reloading](#live-reloading)
+
+---
+
 Ensure that this folder is at the following location:
 `${GOPATH}/src/gitlab.com/astrid-repositories/wp2/cubebeat`
 
