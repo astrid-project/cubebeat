@@ -86,8 +86,6 @@ func rpmvercmp(a, b string) int {
 	segsb := alphanumPattern.FindAllString(b, -1)
 	segs := int(math.Min(float64(len(segsa)), float64(len(segsb))))
 
-	// TODO: handle tildes in rpmvercmp
-
 	// compare each segment
 	for i := 0; i < segs; i++ {
 		a := segsa[i]

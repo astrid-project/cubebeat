@@ -258,7 +258,6 @@ func ReadKeyRing(r io.Reader) (el EntityList, err error) {
 		var e *Entity
 		e, err = ReadEntity(packets)
 		if err != nil {
-			// TODO: warn about skipped unsupported/unreadable keys
 			if _, ok := err.(errors.UnsupportedError); ok {
 				lastUnsupportedError = err
 				err = readToNextPublicKey(packets)

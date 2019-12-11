@@ -81,7 +81,6 @@ func ModuleDocs() error {
 		return err
 	}
 
-	// TODO: Port this script to Go.
 	args := []string{devtools.OSSBeatDir("scripts/docs_collector.py"), "--base-paths"}
 	args = append(args, dirsWithModules...)
 

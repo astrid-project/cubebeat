@@ -85,7 +85,6 @@ func (docsBuilder) FieldDocs(fieldsYML string) error {
 		return err
 	}
 
-	// TODO: Port this script to Go.
 	log.Println(">> Generating docs/fields.asciidoc for", BeatName)
 	return sh.Run(python, LibbeatDir("scripts/generate_fields_docs.py"),
 		fieldsYML,                     // Path to fields.yml.

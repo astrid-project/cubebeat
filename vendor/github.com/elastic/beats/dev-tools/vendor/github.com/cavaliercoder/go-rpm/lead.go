@@ -73,7 +73,5 @@ func ReadPackageLead(r io.Reader) (*Lead, error) {
 		return nil, ErrUnsupportedVersion
 	}
 
-	// TODO: validate lead value ranges
-
 	return lead, nil
 }
