@@ -6,7 +6,7 @@
 		}
 	],
 	"settings": {
-		"workbench.colorTheme": "Monokai",
+		"workbench.colorTheme": "Visual Studio Light",
 		"editor.wordWrap": "on",
 		"editor.wrappingIndent": "deepIndent",
 		"files.insertFinalNewline": true,

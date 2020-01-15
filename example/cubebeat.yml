@@ -1,0 +1,6 @@
+cubebeat:
+  config.inputs:
+    path: config.d/*.yml
+    reload:
+      enabled: true
+      period: 10s
