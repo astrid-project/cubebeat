@@ -11,7 +11,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"gitlab.com/astrid-repositories/wp2/cubebeat/config"
+	"gitlab.com/astrid-repositories/cubebeat/config"
 )
 
 type Cubebeat struct {

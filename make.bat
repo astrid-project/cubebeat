@@ -6,6 +6,6 @@ REM
 REM After running this once you may invoke mage.exe directly.
 
 WHERE mage
-IF %ERRORLEVEL% NEQ 0 go install gitlab.com/astrid-repositories/wp2/cubebeat/vendor/github.com/magefile/mage
+IF %ERRORLEVEL% NEQ 0 go install gitlab.com/astrid-repositories/cubebeat/vendor/github.com/magefile/mage
 
 mage %*

@@ -1,7 +1,7 @@
 # Cubebeat
 
-[![Pipeline](https://gitlab.com/astrid-repositories/wp2/cubebeat/badges/master/pipeline.svg)](https://gitlab.com/astrid-repositories/wp2/cubebeat)
-[![Coverage](https://gitlab.com/astrid-repositories/wp2/cubebeat/badges/master/coverage.svg)](https://gitlab.com/astrid-repositories/wp2/cubebeat)
+[![Pipeline](https://gitlab.com/astrid-repositories/cubebeat/badges/master/pipeline.svg)](https://gitlab.com/astrid-repositories/cubebeat)
+[![Coverage](https://gitlab.com/astrid-repositories/cubebeat/badges/master/coverage.svg)](https://gitlab.com/astrid-repositories/cubebeat)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Documentation Status](https://readthedocs.org/projects/cubebeat/badge/?version=stable-v1.0.1)](https://cubebeat.readthedocs.io/en/stable-v1.0.1/?badge=stable-v1.0.1)
 
@@ -24,7 +24,7 @@ Custom Beat of the Elastic Stack to interact with the Polycube-based eBPF cubes.
 ---
 
 Ensure that this folder is at the following location:
-`${GOPATH}/src/gitlab.com/astrid-repositories/wp2/cubebeat`
+`${GOPATH}/src/gitlab.com/astrid-repositories/cubebeat`
 
 ## Getting Started
 
@@ -36,9 +36,9 @@ Ensure that this folder is at the following location:
 ### Download the code
 
 ```console
-mkdir -p ${GOPATH}/src/gitlab.com/astrid-repositories/wp2/
-cd ${GOPATH}/src/gitlab.com/astrid-repositories/wp2/
-git clone https://gitlab.com/astrid-repositories/wp2/cubebeat.git
+mkdir -p ${GOPATH}/src/gitlab.com/astrid-repositories/
+cd ${GOPATH}/src/gitlab.com/astrid-repositories
+git clone https://gitlab.com/astrid-repositories/cubebeat.git
 ```
 
 ### Build

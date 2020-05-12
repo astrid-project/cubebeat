@@ -6,7 +6,7 @@ import (
 	"flag"
 	"testing"
 
-	"gitlab.com/astrid-repositories/wp2/cubebeat/cmd"
+	"gitlab.com/astrid-repositories/cubebeat/cmd"
 )
 
 var systemTest *bool

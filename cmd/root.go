@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"gitlab.com/astrid-repositories/wp2/cubebeat/beater"
+	"gitlab.com/astrid-repositories//cubebeat/beater"
 
 	cmd "github.com/elastic/beats/libbeat/cmd"
 	"github.com/elastic/beats/libbeat/cmd/instance"

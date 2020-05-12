@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"gitlab.com/astrid-repositories/wp2/cubebeat/cmd"
+	"gitlab.com/astrid-repositories/cubebeat/cmd"
 
-	_ "gitlab.com/astrid-repositories/wp2/cubebeat/include"
+	_ "gitlab.com/astrid-repositories/cubebeat/include"
 )
 
 func main() {

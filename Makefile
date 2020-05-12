@@ -1,5 +1,5 @@
 BEAT_NAME=cubebeat
-BEAT_PATH=gitlab.com/astrid-repositories/wp2/cubebeat
+BEAT_PATH=gitlab.com/astrid-repositories/cubebeat
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
