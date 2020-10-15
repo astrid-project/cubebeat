@@ -1,9 +1,13 @@
 # Cubebeat
 
-[![Pipeline](https://gitlab.com/astrid-repositories/cubebeat/badges/master/pipeline.svg)](https://gitlab.com/astrid-repositories/cubebeat)
-[![Coverage](https://gitlab.com/astrid-repositories/cubebeat/badges/master/coverage.svg)](https://gitlab.com/astrid-repositories/cubebeat)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Documentation Status](https://readthedocs.org/projects/cubebeat/badge/?version=stable-v1.0.1)](https://cubebeat.readthedocs.io/en/stable-v1.0.1/?badge=stable-v1.0.1)
+![License](https://img.shields.io/github/license/astrid-project/cubebeat)
+![GitHub Code Size](https://img.shields.io/github/languages/code-size/astrid-project/cubebeat?color=red&logo=github)
+![GitHub Code Size](https://img.shields.io/github/repo-size/astrid-project/cubebeat?color=red&logo=github)
+![GitHub Release](https://img.shields.io/github/v/tag/astrid-project/cubebeat?label=release&logo=github)
+![Docker Pulls](https://img.shields.io/docker/pulls/astridproject/cubebeat?&label=pulls&logo=docker&sort=date)
+![Docker Image Size](https://img.shields.io/docker/image-size/astridproject/cubebeat/19.10?label=19.10&logo=docker&sort=date)
+![Docker Image Size](https://img.shields.io/docker/image-size/astridproject/cubebeat/20.04?label=20.04&logo=docker&sort=date)
+
 
 Custom Beat of the Elastic Stack to interact with the Polycube-based eBPF cubes.
 
@@ -19,6 +23,7 @@ Custom Beat of the Elastic Stack to interact with the Polycube-based eBPF cubes.
     - [Build](#build)
     - [Run](#run)
     - [Configuration](#configuration)
+      - [Load external configuration files](#load-external-configuration-files)
       - [Live reloading](#live-reloading)
 
 ---
@@ -138,7 +143,7 @@ This feature is especially useful in container environments where one container 
 To enable dynamic config reloading, you specify the ```path``` and ```reload``` options under ```cubebeat.config.inputs``` section. For example:
 
 ```yaml
-cu
+cubebeat:
   config.inputs:
     path: config/*.yml
     reload:
